@@ -1,0 +1,71 @@
+# Catalog
+
+- [What is this site](/docs): One home for everything I build — documentation written from the actual source code.
+- [QA & Test Reports](/docs/qa): Automated test sweep across every project in the registry — whole-project suites, per-module breakdowns, performance benchmarks and
+- [R&D](/docs/rd): Research & Development — two preprints published under my own name on Zenodo with persistent DOIs: Quantum Flash Tomograph (MRI) and Synaptic Continuity Protocol (consciousness transfer).
+- [Tests](/docs/tests): Animated build and QA checks for the Docs site itself.
+- [Update Flow](/docs/update-flow): This page documents **which repositories publish updates to which**, including how this documentation site stays in sync with the source projects.
+- [📖 PDF Book Viewer & Translator](/docs/translator): This page is a live demo of the translator module built into this docs hub. Pick a sample below and press **Translate page** (or **Translate all**) to
+- [Energy Research](/docs/energy): Three open-access energy papers: Atomic (Betavoltaic) Batteries for Mobile Devices, The Iron Age of Grid Storage (iron–air batteries), and Digging for the Sun (superhot rock geothermal). Full text, quantitative models, honest assessments.
+- 📁 Projects
+  - [📁 Projects](/docs/projects): Documentation for 📁 Projects.
+  - ◈ Aurora
+    - [◈ Aurora](/docs/projects/aurora-os): **A complete operating system running in your browser.** Aurora is a from-scratch desktop environment — window manager, virtual
+    - [Aurora — Architecture](/docs/projects/aurora-os/architecture): An in-depth look at every subsystem of the ~4,500-line Aurora codebase (3,118 lines of TypeScript across 16 modules + 1,376 lines of CSS).
+    - [Tests](/docs/projects/aurora-os/tests): Full animated test results for Aurora.
+    - [Aurora — User Guide](/docs/projects/aurora-os/user-guide): Everything you need to live inside the OS: desktop navigation, shortcuts, the eight applications, and the complete shell command reference.
+  - CyberForge
+    - [CyberForge](/docs/projects/cybersec-tools): CyberForge (repository: `BartoszOsiej/CyberForge`) contains four standalone CLI tools written in Rust. Each tool is deliberately focused,
+    - [HashSleuth](/docs/projects/cybersec-tools/hashsleuth): Hash identification + password cracking toolkit with three modes.
+    - [NetRecon](/docs/projects/cybersec-tools/netrecon): Concurrent TCP port scanner with banner grabbing — the network discovery workhorse of the toolkit.
+    - [PacketEye](/docs/projects/cybersec-tools/packeteye): pcap-based traffic analyzer — live capture or offline parsing with per-IP/per-port statistics.
+    - [ShadowScan](/docs/projects/cybersec-tools/shadowscan): Lightweight web vulnerability scanner — a four-phase assessment of a single target.
+    - [Tests](/docs/projects/cybersec-tools/tests): Full animated test results for CyberForge.
+  - 📜 Externum
+    - [📜 Externum](/docs/projects/externum): **Externum v3.0 'Sentient'** — a fully functional programming language of our own that fuses Python's readability, binary performance and Bash's
+    - [Architecture](/docs/projects/externum/architecture): Documentation for Architecture.
+    - [Compiler & CLI](/docs/projects/externum/compiler): Documentation for Compiler & CLI.
+    - [Examples](/docs/projects/externum/examples): All examples run on the current version — covered by 118 tests (`python3 -m unittest discover -s tests`).
+    - [Syntax Reference](/docs/projects/externum/syntax): Externum's syntax is indentation-based (like Python). A program is a sequence of statements; comments start with `#`. Blank lines and
+    - [Tests](/docs/projects/externum/tests): Full animated test results for Externum.
+  - Novactorio
+    - [Novactorio](/docs/projects/factorio-web-game): Novactorio (repository: `Factorio-web-game`) is a complete browser game: an original 2D engine, chunk-based infinite world generation, supply chains,
+    - [Architecture](/docs/projects/factorio-web-game/architecture): Novactorio is deliberately framework-free on the rendering side. The game loop, simulation, and drawing are hand-written on the Canvas 2D API; React is
+    - [Backend & Monetization](/docs/projects/factorio-web-game/backend): Novactorio's backend is **Supabase** (auth, realtime, Postgres, storage) with **Stripe** payments handled by four **Deno Edge Functions**.
+    - [Gameplay Systems](/docs/projects/factorio-web-game/gameplay): Novactorio recreates the factory-automation loop in the browser: gather resources, build machines, route materials, research, and survive.
+    - [Tests](/docs/projects/factorio-web-game/tests): Full animated test results for Novactorio.
+  - LinkShort
+    - [LinkShort](/docs/projects/fastapi-url): LinkShort (repository: `FastAPI-url`) is a complete URL-shortening service with a Python/FastAPI API, JWT-based authentication, per-user link
+    - [API Reference](/docs/projects/fastapi-url/api-reference): All endpoints are JSON. Authentication uses a JWT bearer token returned by `/auth/register` and `/auth/login`. Interactive docs are available at
+    - [Deployment](/docs/projects/fastapi-url/deployment): LinkShort ships with three deployment options: Docker, Docker Compose, and Fly.io.
+    - [Getting Started](/docs/projects/fastapi-url/getting-started): Run LinkShort locally in a few minutes. You need Python 3.12+ and Node.js 18+.
+    - [Tests](/docs/projects/fastapi-url/tests): Full animated test results for LinkShort.
+  - 💬 Meshcore — P2P Chat
+    - [💬 Meshcore — P2P Chat](/docs/projects/n2-mesh): **Serverless peer-to-peer chat with an automatic relay fallback.** It runs on static hosting (GitHub Pages) — zero servers, zero databases, zero accounts.
+    - [🧱 Meshcore — Architecture](/docs/projects/n2-mesh/architecture): Documentation for 🧱 Meshcore — Architecture.
+    - [Tests](/docs/projects/n2-mesh/tests): Full animated test results for Meshcore.
+  - VIVIA: Beyond the Known (formerly NV2 Engine)
+    - [VIVIA: Beyond the Known (formerly NV2 Engine)](/docs/projects/nv2-engine): VIVIA: Beyond the Known (internally `NV_ENGINE`, repository: `NV2_ENGINE`) is a **shipped commercial voxel game** written in Rust (47 source files, 15,800+
+    - [AI System — MeMLP (Modular embedded Multi-layer Perceptron Model)](/docs/projects/nv2-engine/ai): NV2 Engine embeds a small neural network — **MeMLP** (Modular embedded Multi-layer Perceptron Model) — that decides where vegetation belongs,
+    - [Architecture](/docs/projects/nv2-engine/architecture): NV2 Engine is a layered Rust application: a `winit` event-driven shell, a `wgpu` renderer, a procedural world simulation, and a GUI stack — plus
+    - [Blocks & Biomes](/docs/projects/nv2-engine/blocks): The complete block registry and biome model, extracted from `world/block.rs` and `world/biomes.rs`.
+    - [Crafting Reference](/docs/projects/nv2-engine/crafting): Every recipe registered in `crafting.rs`, with the **exact patterns from the source code**. The engine supports **shaped recipes** (fixed patterns with
+    - [Development](/docs/projects/nv2-engine/development): How to build, test, and extend NV2 Engine.
+    - [Gameplay](/docs/projects/nv2-engine/gameplay): NV2 Engine is a survival-sandbox loop: generate a procedural world, break and place blocks with tool-gated harvesting, gather resources, craft tools and
+    - [Performance](/docs/projects/nv2-engine/performance): NV2 Engine is engineered so that GPU bandwidth, draw calls, and CPU meshing stay proportional to what actually changed — not the whole world.
+    - [Roadmap & Changelog](/docs/projects/nv2-engine/roadmap): Documentation for Roadmap & Changelog.
+    - [Tests](/docs/projects/nv2-engine/tests): Full animated test results for NV2 Engine.
+    - [Water Simulation](/docs/projects/nv2-engine/water): Dynamic liquid behavior lives in `world/liquid.rs`, with world integration in `world/mod.rs` and a dedicated translucent render path in `renderer/mesh.rs`.
+  - 🔒 pqguard
+    - [🔒 pqguard](/docs/projects/pqguard): **Post-quantum file encryption CLI** — ML-KEM-768 (FIPS 203) + AES-256-GCM. Encrypt files using NIST-standardized post-quantum algorithms that resist both
+    - [🧪 pqguard — Test Results](/docs/projects/pqguard/tests): Documentation for 🧪 pqguard — Test Results.
+  - 🎯 Promptbox
+    - [🎯 Promptbox](/docs/projects/prompt-inbox): **Remote prompt inbox for the coding agent.** Send a prompt from anywhere — it lands as a GitHub issue — the agent handles it.
+    - [🧪 Promptbox — Test Results](/docs/projects/prompt-inbox/tests): Documentation for 🧪 Promptbox — Test Results.
+  - ⛓️ TrustNode
+    - [⛓️ TrustNode](/docs/projects/solana-validator): **A custom Solana-like validator built from scratch in Rust** — PoH clock, Tower BFT consensus, Sealevel parallel execution, Turbine block propagation
+    - [🧪 TrustNode — Test Results](/docs/projects/solana-validator/tests): Documentation for 🧪 TrustNode — Test Results.
+  - 🛰️ Talus
+    - [🛰️ Talus](/docs/projects/talus-process-monitor): **eBPF endpoint security agent for Linux — detect ransomware behaviour, respond at the kernel edge.** Talus traces `execve`, `openat`, `connect`, `accept`,...
+    - [Talus — Architecture](/docs/projects/talus-process-monitor/architecture): Internal architecture of Talus: the kernel-side eBPF programs, the userspace event pipeline, the sliding-window alerting heuristic,
+    - [Tests](/docs/projects/talus-process-monitor/tests): Full animated test results for Talus.

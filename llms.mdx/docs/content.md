@@ -1,0 +1,23 @@
+# What is this site (/docs)
+
+
+
+
+
+Engineering docs for every deployed project — written from the actual source, kept alive with the code.
+
+<Cards>
+  <Card title="QA" description="Automated test sweep across every project in the registry." href="/docs/qa" />
+
+  <Card title="R&D" description="Two preprints on Zenodo with persistent DOIs." href="/docs/rd" />
+
+  <Card title="Energy Research" description="Three open-access energy papers, quantitative and honest." href="/docs/energy" />
+
+  <Card title="PDF Translator" description="Translating PDFs without losing layout." href="/docs/translator" />
+
+  <Card title="Tests" description="Whole-project suites, per-module breakdowns." href="/docs/tests" />
+
+  <Card title="Update Flow" description="From commit to deploy to docs." href="/docs/update-flow" />
+</Cards>
+
+Projects live under [Catalog](/docs/projects) — 12 documented builds from a browser OS to an eBPF monitor.
