@@ -133,6 +133,29 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* ENTERPRISE */}
+      <section className="mt-16 border border-[#F15A24] bg-[#0a0a0c] p-8">
+        <p className="text-[12px] tracking-[0.15em] text-[#8B93A3]">
+          <span className="text-[#F15A24]">[$]</span> // ENTERPRISE
+        </p>
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-6">
+          <div>
+            <h2 className="text-2xl font-bold tracking-tight">
+              talus-process-monitor <span className="text-[#F15A24]">ENTERPRISE</span>
+            </h2>
+            <p className="mt-2 max-w-xl text-[12px] text-[#8B93A3]">
+              Level 4/20 upgrade path — priority patches, license file, lifetime updates. One payment, instant checkout.
+            </p>
+          </div>
+          <a
+            href="https://buy.polar.sh/f8fee751-6cde-4a3b-b3cd-6e302ce8f5a8"
+            className="rounded-md bg-[#F15A24] px-8 py-4 text-lg font-bold text-[#050505] transition-colors hover:bg-[#ff6a35]"
+          >
+            BUY — $50 →
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
