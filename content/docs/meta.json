@@ -1,0 +1,15 @@
+{
+  "title": "Catalog",
+  "defaultOpen": true,
+  "pages": [
+    "index",
+    "qa",
+    "rd",
+    "tests",
+    "update-flow",
+    "translator",
+    "--rest",
+    "energy",
+    "projects"
+  ]
+}
