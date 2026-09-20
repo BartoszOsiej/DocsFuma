@@ -24,11 +24,11 @@ export default function HomePage() {
       {/* HERO */}
       <section className="flex min-h-[70vh] flex-col justify-center border-b border-[#22222a] pb-16 pt-24">
         <p className="text-[12px] tracking-[0.15em] text-[#8B93A3]">
-          +/ STATUS: OPERATIONAL · DOCS_WRITTEN_FROM_SOURCE
+          +/ STATUS: OPERATIONAL · DOCS_WRITTEN_FROM_SOURCE · BARTOSZ_OSIEJ, FOUNDER
         </p>
         <h1 className="mt-6 text-4xl font-bold leading-[0.95] tracking-tight sm:text-6xl md:text-7xl">
-          HARTWELL<br />
-          <span className="text-[#F15A24]">DOCS</span>_HUB
+          HARTWELL_LABS<br />
+          <span className="text-[#F15A24]">DOC</span>S_HUB
         </h1>
         <div className="mt-8 space-y-1 text-[#8B93A3]">
           <p>
@@ -156,6 +156,10 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      <footer className="mt-16 border-t border-[#22222a] pt-6 pb-4 text-center text-[11px] tracking-widest text-[#8B93A3]">
+        © 2026 HARTWELL_LABS · BARTOSZ_OSIEJ, FOUNDER · BUILT_IN_THE_OPEN
+      </footer>
     </main>
   );
 }
